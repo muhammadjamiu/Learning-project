@@ -293,6 +293,7 @@ body{
         }
     
         #cover{
+            margin-top: 3em;
             background-color: #f0f5f4;
             height: 1800px;
             width: auto;
