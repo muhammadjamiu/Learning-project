@@ -5,7 +5,7 @@
   { value: "4", label: "foot-04", price: "N5000" },
   { value: "5", label: "foot-05", price: "N5000" },
   { value: "6", label: "foot-06", price: "N5000" },
-  { value: "7", label: "foot-07", price: "N5000" },
+  { value: "7", label: "foot-07", price: "N5000" }, 
   { value: "8", label: "foot-08", price: "N5000" },
   { value: "9", label: "foot-09", price: "N5000" },
   { value: "10", label: "foot-10", price: "N5000" },
