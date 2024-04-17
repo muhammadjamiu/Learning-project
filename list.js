@@ -60,7 +60,7 @@
             var li = document.createElement('li');
             li.setAttribute('class', 'item');
             li.appendChild(document.createTextNode(input.value));
-            ul.appendChild(li);
+            ul.appendChild(li); 
             input.value = "";
         })
 
