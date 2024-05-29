@@ -1,4 +1,6 @@
-  const shoesData = [
+   console.log('press');
+
+ const shoesData = [
   { value: "1", label: "foot-01", price: "N10,000",  },
   { value: "2", label: "foot-02", price: "N5000" },
   { value: "3", label: "foot-03", price: "N5000" },
@@ -27,7 +29,7 @@
   { value: "26", label: "foot-26", price: "N5000" },
   { value: "27", label: "foot-27", price: "N5000" },
   { value: "28", label: "foot-28", price: "N5000" },
-  { value: "29", label: "foot-29", price: "N5000" },
+  { value: "29", label: "foot-29", price: "N5000" }, 
   { value: "30", label: "foot-30", price: "N5000" },
   { value: "31", label: "foot-31", price: "N5000" },
   { value: "32", label: "foot-32", price: "N5000" },
@@ -49,7 +51,6 @@
       optionElement.textContent = `${option.label} = ${option.price}`;
       selectElement.appendChild(optionElement);
     });
-
  
    
    var button = document.getElementById('enter');
@@ -69,3 +70,19 @@
       console.log("text")
   return  document.querySelector('.item').remove();
 }
+
+ 
+  const inputElement = document.getElementById('userinput');
+  
+  inputElement.addEventListener('keydown',(event =>{
+    if(event.key === 'Enter'){
+      var ul = document.getElementsByClassName("newUl")[0];
+
+          var li = document.createElement('li');
+            li.setAttribute('class', 'item');
+            li.appendChild(document.createTextNode(input.value));
+            ul.appendChild(li); 
+            inputElement.value = "";
+      
+    }
+  }))

@@ -3,6 +3,6 @@ const navLink = document.getElementsByClassName('nav-link')[0]
 
 
 toggleButton.addEventListener('click',() => {
-    navLink.classList.toggle('active');
+    navLink                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         .classList.toggle('active');
      
-})
+});
