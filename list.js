@@ -86,3 +86,11 @@
        
     }
   }))
+
+  // let datta = document.getElementById("inputField");
+  //  datta.addEventListener("keydown" (event)=>{
+  //   if(event.key === "Enter"){
+
+  //   }
+  //  });
+  //   datta.getAnimations('')
