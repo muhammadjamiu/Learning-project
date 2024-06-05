@@ -300,7 +300,7 @@ h1 .sp2 {
 }
 
 
-@media (max-width: 1600px) and (min-width: 520px) {
+@media (max-width: 2000px) and (min-width: 520px) {
     * {
         box-sizing: border-box;
 

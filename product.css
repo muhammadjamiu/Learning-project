@@ -380,7 +380,7 @@ body {
 /* start of responsible Image */
 
 
-@media (max-width: 1600px) and (min-width: 500px) {
+@media (max-width: 2000px) and (min-width: 500px) {
     .premium {
         margin: 1rem;
         position: relative;
